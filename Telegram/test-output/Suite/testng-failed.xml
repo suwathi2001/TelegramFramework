@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScripts.PriorityTest">
+        <methods>
+          <include name="register"/>
+        </methods>
+      </class> <!-- testScripts.PriorityTest -->
+      <class name="testScripts.integrationTest">
+        <methods>
+          <include name="iT_23"/>
+          <include name="iT_25"/>
+          <include name="iT_22"/>
+          <include name="iT_27"/>
+          <include name="iT_24"/>
+          <include name="iT_18"/>
+          <include name="iT_26"/>
+          <include name="iT_28"/>
+        </methods>
+      </class> <!-- testScripts.integrationTest -->
+      <class name="testScripts.functionTest">
+        <methods>
+          <include name="fT_12"/>
+          <include name="fT_01"/>
+          <include name="fT_07"/>
+          <include name="fT_15"/>
+          <include name="fT_09"/>
+          <include name="fT_14"/>
+          <include name="fT_13"/>
+          <include name="fT_10"/>
+        </methods>
+      </class> <!-- testScripts.functionTest -->
+      <class name="testScripts.systemTest">
+        <methods>
+          <include name="sT_30"/>
+        </methods>
+      </class> <!-- testScripts.systemTest -->
+      <class name="testScripts.BookTest">
+        <methods>
+          <include name="books_001"/>
+        </methods>
+      </class> <!-- testScripts.BookTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
